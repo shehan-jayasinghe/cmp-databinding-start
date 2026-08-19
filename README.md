@@ -1,27 +1,37 @@
-# MyFirstApp
+# Angular Data Binding Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+A starter Angular project for learning component and template data binding.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project provides a small Angular application for practicing how component state is connected to templates and how user interactions update application data.
 
-## Code scaffolding
+## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+ng serve
+```
 
-## Build
+Then open `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Common Commands
 
-## Running unit tests
+```bash
+ng serve
+ng build
+ng test
+ng generate component component-name
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Concepts
 
-## Running end-to-end tests
+The project can be used to practice interpolation, property binding, event binding, two-way binding, component communication, and Angular template syntax.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Project Structure
 
-## Further help
+Angular components contain the UI and behavior, while templates define how component data is rendered and how user events are handled.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Notes
+
+Use the dependency and Angular CLI versions defined by the repository when running or extending the project.
